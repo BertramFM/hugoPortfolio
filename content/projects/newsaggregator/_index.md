@@ -2,7 +2,7 @@
 title: "NewsAggregator"
 date: 2026-08-28
 description: "En Nyheds hjemmeside som tager artikler og opsummere dem inden for et given emne, så man kan få et hurtigt overblik"
-tags: ["Java", "PostgresSQL"]
+tags: ["Java", "PostgresSQL", "Maven", "Javalin 7", "JPA/Hibernate", "JWT", "jBCrypt", "GeminiAi", "CI/CD]
 draft: false
 ---
 
@@ -14,7 +14,21 @@ og bruge AI til at bearbejde artikler ind til nogle 'korte' opsummeringer.
 
 ## Teknologier
 - JAVA 25
-- PostgresSQL
+- PostgresSQL 16
+- Maven 
+- Javalin 7
+- JPA/Hibernate 7
+- Jackson
+- Lombok
+- JWT (TokenSecurity)
+- jBCrypt
+- Google Gemini API
+- The Guardian Open Platform API
+- JUnit 5, Testcontainers and Hamcrest
+- Rest Assured
+- Docker
+- GitHub Actions
+- Docker Hub, Watchtower and Caddy on a DigitalOcean droplet.
 
 ## Resultat
 Stadig i gang
