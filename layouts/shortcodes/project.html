@@ -1,0 +1,7 @@
+{{ $target := site.GetPage (.Get "path") }}
+{{ if $target }}
+  <section class="space-y-10 w-full">
+    {{ $context := dict "target" $target "showSummary" (.Get "showSummary") "compactSummary" (.Get "compactSummary" | default false) }}
+    {{ partial "article-link/_shortcode.html" $context }}
+  </section>
+{{ end }}

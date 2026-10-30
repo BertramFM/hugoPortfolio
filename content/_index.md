@@ -6,4 +6,4 @@ Velkommen til min portefølje. Her samler jeg de projekter, jeg arbejder på som
 
 ## Projekter
 
-{{< article link="/projects/newsaggregator/" >}}
+{{< project path="/projects/newsaggregator" >}}
