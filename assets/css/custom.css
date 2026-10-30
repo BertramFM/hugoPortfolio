@@ -1,0 +1,6 @@
+/* Kortlister (fx ugerne under et projekt) vises i 2 kolonner i stedet for 3 */
+@media (min-width: 768px) {
+  section.grid.md\:grid-cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

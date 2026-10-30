@@ -3,6 +3,7 @@ title: "NewsAggregator"
 date: 2026-08-28
 description: "En Nyheds hjemmeside som tager artikler og opsummere dem inden for et given emne, så man kan få et hurtigt overblik"
 tags: ["Java", "PostgresSQL", "Maven", "Javalin 7", "JPA/Hibernate", "JWT", "jBCrypt", "GeminiAi", "CI/CD"]
+cardView: true
 draft: false
 ---
 
